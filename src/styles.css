@@ -1,0 +1,53 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+button {
+  margin: 0.5rem 0.2rem;
+}
+
+button.active {
+  border: 2px solid #999;
+  outline: none;
+}
+
+button[type="submit"] {
+  padding: 0.5rem 1rem;
+}
+
+input {
+  padding: 0.5rem 1rem;
+  margin: 1rem 0;
+  font-size: 1.5rem;
+}
+
+pre {
+  padding: 4px;
+  margin-top: 1rem;
+  background: #fff;
+  text-align: left;
+  display: inline-flex;
+}
+
+.author {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 0.5rem;
+  font-size: 0.8em;
+}
+
+.debug {
+  justify-content: center;
+  margin-top: 2rem;
+  background: #fff;
+  text-align: left;
+}
+
+.description {
+  padding: 1rem 1.5rem;
+  border: 1px solid #ccc;
+  margin: 3rem;
+  text-align: left;
+}
